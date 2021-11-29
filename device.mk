@@ -43,6 +43,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := avicii,OnePlusNord,Nord
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
+
 # tri-state-key
 PRODUCT_PACKAGES += \
     KeyHandler \
