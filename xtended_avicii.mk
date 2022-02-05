@@ -28,6 +28,12 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_USES_CUSTOM_AVB_KEY := true
 
+#Boot animation 
+TARGET_BOOT_ANIMATION_RES := 1080
+
+#Gapps
+WITH_GAPPS := true
+
 PRODUCT_NAME := xtended_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
