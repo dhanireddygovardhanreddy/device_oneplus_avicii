@@ -38,6 +38,9 @@ OCTAVI_DEVICE_MAINTAINER := Squadgtx
 TARGET_WANTS_FOD_ANIMATIONS=true
 EXTRA_UDFPS_ANIMATIONS := true
 
+#Gapps
+WITH_GAPPS=true
+
 BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
