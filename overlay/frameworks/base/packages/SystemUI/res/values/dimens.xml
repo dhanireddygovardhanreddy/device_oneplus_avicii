@@ -44,6 +44,9 @@
     <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 
    <!-- Location on the screen of the center of the physical power button. -->
-    <dimen name="physical_power_button_center_screen_location_y">875px</dimen>
+   <dimen name="physical_power_button_center_screen_location_y">875px</dimen>
+
+    <!-- Recognizing fingerprint animation -->
+    <dimen name="udfps_animation_offset">40dp</dimen>
 
 </resources>
