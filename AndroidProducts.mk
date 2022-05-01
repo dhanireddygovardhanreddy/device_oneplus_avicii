@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_avicii.mk
+    $(LOCAL_DIR)/dot_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_avicii-user \
-    xtended_avicii-userdebug \
-    xtended_avicii-eng
+    dot_avicii-user \
+    dot_avicii-userdebug \
+    dot_avicii-eng
