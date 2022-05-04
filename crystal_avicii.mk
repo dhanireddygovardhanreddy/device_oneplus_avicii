@@ -24,9 +24,14 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 # Inherit some common crystal stuff.
 $(call inherit-product, vendor/crystal/config/common.mk)
 
-# PixelExperience Properties
-TARGET_USES_AOSP_RECOVERY := true
+# CrystalOS Properties
 TARGET_USES_CUSTOM_AVB_KEY := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
 
 #Boot animation 
 TARGET_BOOT_ANIMATION_RES := 1080
