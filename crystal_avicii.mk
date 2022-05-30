@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avicii device
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
-# Inherit some common xtended  stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common crystal stuff.
+$(call inherit-product, vendor/crystal/config/common.mk)
 
 # PixelExperience Properties
 TARGET_USES_AOSP_RECOVERY := true
@@ -32,14 +32,15 @@ TARGET_USES_CUSTOM_AVB_KEY := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 #Gapps
-WITH_GAPPS := true
+CRYSTAL_PURITY := GAPPS
 
-PRODUCT_NAME := dot_avicii
+PRODUCT_NAME := crystal_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := AC2001
 CUSTOM_DEVICE := Nord
+CRYSTAL_MAINTAINER :=Squadgtx
 
 PRODUCT_SYSTEM_NAME := Nord
 PRODUCT_SYSTEM_DEVICE := Nord

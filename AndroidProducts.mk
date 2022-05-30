@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_avicii.mk
+    $(LOCAL_DIR)/crystal_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_avicii-user \
-    dot_avicii-userdebug \
-    dot_avicii-eng
+    crystal_avicii-user \
+    crystal_avicii-userdebug \
+    crystal_avicii-eng
