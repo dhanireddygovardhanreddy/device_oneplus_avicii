@@ -21,13 +21,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avicii device
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+# Inherit some common Crystalos stuff.
+$(call inherit-product, vendor/crystal/config/common_full_phone.mk)
 
-TARGET_GAPPS_ARCH := arm64
+
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# PixysOS Properties
+#GAPPS
+CRYSTAL_PURITY := GAPPS
+
+# CrystalOS Properties
 TARGET_USES_CUSTOM_AVB_KEY := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -35,7 +38,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
-PRODUCT_NAME := pixys_avicii
+PRODUCT_NAME := crystal_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
